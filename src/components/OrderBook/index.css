@@ -1,0 +1,66 @@
+.desktop-ob {
+  background: #141722;
+  padding-bottom: 32px;
+  max-width: 900px;
+  margin: 40px auto 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border: 2px solid #1f252f;
+}
+
+.desktop-ob button {
+  margin: 0 auto;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 32px;
+  min-height: 400px;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-bottom: 1px solid #404040;
+  padding: 16px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.header p {
+  margin: 0;
+}
+
+.color-white {
+  color: #a5a8ae;
+}
+
+.color-gray {
+  color: #454a57;
+}
+
+.mobile-ob {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .desktop-ob {
+    display: none;
+  }
+
+  .header {
+    padding: 12px 0px;
+  }
+
+  .mobile-ob {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .mobile-ob button {
+    margin: 8px auto 0;
+  }
+}

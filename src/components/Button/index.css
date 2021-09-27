@@ -1,0 +1,26 @@
+.button-styles {
+  background: #5342d1;
+  color: white;
+  border: 1px solid #1f252f;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.button-styles:hover {
+  background: #372b8a;
+}
+
+.button-styles:focus {
+  background: #6550ff;
+}
+
+.button-styles:active {
+  background: #6550ff;
+}
+
+@media screen and (max-width: 600px) {
+  .button-styles p {
+    font-size: 16px;
+  }
+}

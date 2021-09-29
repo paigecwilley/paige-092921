@@ -71,5 +71,11 @@
 
   .height {
     min-height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .asks-only-mobile {
+    flex-direction: column-reverse;
   }
 }

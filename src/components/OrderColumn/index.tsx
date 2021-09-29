@@ -34,7 +34,7 @@ const OrderColumn = ({
   }
 
   return (
-    <div className="height">
+    <div className={`height ${type === 'asks' ? 'asks-only-mobile' : null}`}>
       <div className="grid-3 margin">
         {columnLabels.map((label) => (
           <p className="text color-gray" key={label}>
